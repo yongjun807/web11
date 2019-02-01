@@ -1,0 +1,124 @@
+*{margin: 0; padding: 0}
+li{list-style: none;}
+a{text-decoration: none;}
+
+body{font-family: 'daum'; background-color: #fff;}
+
+#headerWrap{border-bottom: 10px solid #2832a5; padding-top: 10px;}
+#header{ background: url('../images/Untitled-1.png') no-repeat; background-position: 1024px 5px;
+   width: 1220px; height: 114px; position: relative; margin: 0 auto;}
+#header h1{padding-top: 31px; padding-left: 40px;}
+#header #nav1{position: absolute; top: 45px; right: 170px;}
+#nav1 ul{overflow: hidden;}
+#nav1 ul li{float: left; margin-right: 19px;}
+#nav1 ul li a:hover{color: #3976cf;}
+#nav1 ul li a{font-size: 21px; color: #474749;  font-family: 'Nanumsquare';
+              font-weight: bold; text-transform: uppercase;}
+#header .company{position: absolute; top: 9px; right: 11px;}
+
+#Wrap{overflow: hidden; width: 1220px; height: 820px; margin: 0 auto; background: url('../images/line2.png') no-repeat; background-position: 585px -24px;}
+#mainSec{width: 1220px; height: 422px; background: url("../images/qwe.png"); background-repeat: no-repeat; background-position: 308px 0; position: relative; border-bottom: 10px solid #2832a5;}
+.main2{position: absolute; top: 1px; right: 12px;}
+.login{width: 143px; height: 32px; background-color: #3976cf; text-align: center; margin-top: 7px; margin-left: 22px;}
+.login a{color: #fff; line-height: 32px; font-size: 16px;}
+.join{width: 143px; height: 32px; background-color: #f0f2f6; text-align: center; position: relative; left: 165px; bottom: 32px;}
+.join a{color: #3976cf; line-height: 32px; font-size: 16px;}
+#mainSec #aaa{width: 286px; height: 99px; background-color: #3976cf; position: relative; left: 22px; bottom: 32px;}
+.input{width: 232px; height: 37px; background-color: #fff; color: #3978cf; margin: 22px 0 0 27px; font-family: 'daum'; font-weight: bold;}
+#aaa a,small{font-size: 11px; color: #fff; line-height: 35px; margin-left: 4px;}
+
+#mainSec #nav2{width: 286px; height: 284px; background-color: #3976cf;
+             position: relative; left: 22px; bottom: 32px;}
+#nav2 ul{overflow: hidden;}
+#nav2 ul li{width: 143px; height: 70px; float: left; text-align: center; line-height: 105px;
+            border-top: 1px solid #568ad6;}
+#nav2 ul li:nth-child(1) a{display: block;background: url('../images/a1.png') no-repeat center 5px; }
+#nav2 ul li:nth-child(2) a{display: block;background: url('../images/a2.png') no-repeat center 5px; }
+#nav2 ul li:nth-child(3) a{display: block;background: url('../images/a3.png') no-repeat center 5px; }
+#nav2 ul li:nth-child(4) a{display: block;background: url('../images/a4.png') no-repeat center 5px; }
+#nav2 ul li:nth-child(5) a{display: block;background: url('../images/a5.png') no-repeat center 5px; }
+#nav2 ul li:nth-child(6) a{display: block;background: url('../images/a6.png') no-repeat center 5px; }
+#nav2 ul li:nth-child(7) a{display: block;background: url('../images/a7.png') no-repeat center 5px; }
+#nav2 ul li:nth-child(8) a{display: block;background: url('../images/a8.png') no-repeat center 5px; }
+
+/* #nav2 ul li:nth-child(1) a:hover{} */
+#nav2 ul li a{color: #fff; font-size: 12px;}
+#nav2 ul li:hover{background-color: #2c63c3;}
+
+#mainSec #sliderWrap{position: relative; left: 353px; bottom: 360px;}
+#sliderWrap h3{margin-bottom: 30px;}
+#sliderWrap h3 a{color: #474749; text-decoration: underline;}
+#sliderWrap h2{margin-bottom: 18px;}
+#sliderWrap h2 a{color: #474749;}
+#sliderWrap p a{color: #737373; font-weight: bold;}
+
+#mainSec2{width: 934px; height: 328px; overflow: hidden; position: relative; float: left;}
+#event{width: 272px; height: 208px; padding-left: 28px; padding-top: 10px; position: relative; float: left; margin-right: 45px;}
+#event h2{margin-bottom: 9px; font-size: 20px; color: #474749;}
+#event img{margin-bottom: 16px;}
+#event a b{color: #474749;}
+#event a small{color: #ababad; margin-left: 0; font-size: 12px;}
+#event div{position: absolute; top: 16px; right: 8px; font-size: 12px;}
+#event div a{color: #5a5a5a;}
+
+#service{width: 272px; height: 208px; float: left; padding-top: 10px; margin-right: 45px;}
+#service h2{margin-bottom: 9px; font-size: 20px; color: #474749;}
+#service img{margin-bottom: 16px;}
+#service a b{color: #474749;}
+#service a small{color: #ababad; margin-left: 0; font-size: 12px;}
+
+#product{width: 270px; height: 208px; float: left; padding-top: 10px;}
+#product h2{margin-bottom: 9px; font-size: 20px; color: #474749;}
+#product img{margin-bottom: 16px;}
+#product a b{color: #474749;}
+#product a small{color: #ababad; margin-left: 0; font-size: 12px;}
+
+#subSec1{width: 934px; height: 31px; position: absolute; bottom: 30px; left: 31px;}
+#nav3{}
+#nav3 ul{overflow:}
+#nav3 ul li{float: left; margin-right: 20px;}
+#nav3 ul li b{color: #474749;  font-size: 14px;}
+#form .search{width: 110px; height: 30px; position: relative; top: 2px;}
+#form .img{width: 20px; position: relative; right: 30px; top: 6px;}
+
+#mainSec3{width: 265px; height: 328px; float: left; margin-left: 21px; margin-top: 10px;}
+#information{width: 242px; height: 88px; margin-bottom: 36px; position: relative;}
+#information h2{margin-bottom: 9px; font-size: 20px; color: #474749;}
+#information small{color: #ababad;}
+#information p{position: absolute; top: 6px; right: 8px; font-size: 12px;}
+#information p a{color: #5a5a5a;}
+
+#customer{width: 242px; height: 140px; position: relative;}
+#customer h2{margin-bottom: 9px; font-size: 20px; color: #474749;}
+#customer div p{border: 1px solid #bebebe; padding: 3px 0 3px 16px; margin-bottom: 5px; position: relative;}
+#customer div p a{color: #bebebe;}
+#customer div img{position: absolute; top: 7px; right: 3px; }
+#more{position: absolute; top: 6px; right: 8px; font-size: 12px;}
+#more a{color: #5a5a5a;}
+
+#subSec7{height: 64px; margin-top: 305px; position: relative;}
+/* #nav4 #navsub{overflow: hidden;} */
+#nav4 #navsub >li{float: left;  padding: 0 40px;position: relative; overflow: hidden;}
+#nav4 #navsub >li a{color: #7d7d7d;}
+#navsub .sub{position: absolute;text-align: center; top: -250px;  width: 155px; padding-right: 5px;
+           background-color: #000;}
+#navsub li:nth-child(5) .sub{position: absolute; top: -150px;}
+#navsub li:nth-child(6) .sub{position: absolute; left: 60px;}
+#nav4 #navsub .sub small{font-size: 13px; color: #fff; }
+
+#footerWrap{border-top: 10px solid #2832a5;}
+#footer{width: 1220px; height: 140px; position: relative; margin: 0 auto;}
+#footer #nav5{}
+#nav5 ul{overflow: hidden;}
+#nav5 ul li{float: left; padding: 25px 19px 21px 5px; font-size: 14px;}
+#nav5 ul li a{color: #474749;}
+#footer #div2{position: absolute; top: 20px; right: 12px;}
+#div2 img{margin-left: 5px;}
+
+#footer #nav6{}
+#nav6 ul{overflow: hidden;}
+#nav6 ul li{float: left;}
+#nav6 ul li small{color: #8f8f92;}
+
+#footer #div1{}
+#div1 small{color: #8f8f92; position: relative; bottom: 15px;}
